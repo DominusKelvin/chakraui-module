@@ -4,7 +4,10 @@
   "description": "Chakra UI Module for Nuxt.js",
   "main": "lib/module.js",
   "scripts": {
-    "test": "yarn lint && jest"
+    "dev": "nuxt example",
+    "lint": "eslint --ext .js,.vue example lib test",
+    "test": "yarn lint && jest",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
   },
   "files": [
     "lib"
