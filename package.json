@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/chakraui",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Chakra UI Module for Nuxt.js",
   "repository": "https://github.com/DominusKelvin/chakraui-module",
   "license": "MIT",
@@ -25,19 +25,19 @@
     "emotion": "^10.0.27"
   },
   "devDependencies": {
-    "@babel/core": "latest",
-    "@babel/preset-env": "latest",
-    "@commitlint/cli": "latest",
-    "@commitlint/config-conventional": "latest",
-    "@nuxtjs/eslint-config": "latest",
-    "@nuxtjs/module-test-utils": "latest",
-    "babel-eslint": "latest",
-    "babel-jest": "latest",
-    "eslint": "latest",
-    "husky": "latest",
-    "jest": "latest",
-    "nuxt-edge": "latest",
-    "standard-version": "latest"
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@nuxtjs/eslint-config": "^2.0.2",
+    "@nuxtjs/module-test-utils": "^1.6.1",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.5.1",
+    "eslint": "^6.8.0",
+    "husky": "^4.2.5",
+    "jest": "^25.5.2",
+    "nuxt": "^2.12.2",
+    "standard-version": "^7.1.0"
   },
   "publishConfig": {
     "access": "public"
