@@ -19,7 +19,11 @@
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint && jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@chakra-ui/vue": "^0.5.3",
+    "@nuxtjs/emotion": "^0.0.1",
+    "emotion": "^10.0.27"
+  },
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
