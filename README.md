@@ -26,11 +26,37 @@ yarn add @nuxtjs/chakraui # or npm install @nuxtjs/chakraui
     // Simple usage
     '@nuxtjs/chakraui',
 
-    // With options
-    ['@nuxtjs/chakraui', { /* module options */ }]
   ]
 }
 ```
+
+3. Wrap your default layout in `layouts/` directory inside CThemeProvider as seen in the Chakra UI [docs](https://vue.chakra-ui.com/with-nuxt) to start consuming Chakra Components. Like so:
+
+```js
+<template>
+  <c-theme-provider>
+    <c-reset/>
+    <Nuxt/>
+  </c-theme-provider>
+</template>
+
+<script>
+import {
+  CThemeProvider,
+  CReset,
+  CButton
+} from "@chakra-ui/vue";
+
+export default {
+  name: 'DefaultLayout',
+  components: {
+    CThemeProvider,
+    CReset,
+  }
+};
+</script>
+```
+
 
 ## Development
 
